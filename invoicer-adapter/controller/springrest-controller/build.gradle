@@ -1,3 +1,10 @@
 apply plugin: 'java-library'
 
 ext.moduleName = 'niels.invoicer.controller.springrest'
+
+dependencies {
+    implementation project(':invoicer-usecase')
+    implementation project(':invoicer-domain')
+    implementation group: 'org.springframework', name: 'spring-web', version: '5.1.6.RELEASE'
+
+}

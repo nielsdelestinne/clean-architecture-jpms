@@ -16,6 +16,18 @@ public class Invoice {
         this.currency = currency;
     }
 
+    public UUID getId() {
+        return id;
+    }
+
+    public BigDecimal getAmount() {
+        return amount;
+    }
+
+    public Currency getCurrency() {
+        return currency;
+    }
+
     @Override
     public String toString() {
         return "Invoice " + id + " | " + amount + " " + currency.getDisplayName();
