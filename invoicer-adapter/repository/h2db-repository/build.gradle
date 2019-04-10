@@ -1,0 +1,3 @@
+apply plugin: 'java-library'
+
+ext.moduleName = 'niels.invoicer.repository.h2db'

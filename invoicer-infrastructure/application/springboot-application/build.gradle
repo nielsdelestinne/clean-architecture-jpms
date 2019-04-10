@@ -1,0 +1,3 @@
+apply plugin: 'java-library'
+
+ext.moduleName = 'niels.invoicer.infrastructure.application.springboot'

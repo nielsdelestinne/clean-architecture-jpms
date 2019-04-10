@@ -1,0 +1,2 @@
+module niels.invoicer.usecase {
+}

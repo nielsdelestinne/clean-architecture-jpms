@@ -1,2 +1,12 @@
 rootProject.name = 'invoicer-application'
 
+include ':invoicer-domain'
+include ':invoicer-usecase'
+include ':springrest-controller'
+include ':h2db-repository'
+include ':springboot-application'
+
+project(':springrest-controller').projectDir = file('invoicer-adapter/controller/springrest-controller')
+project(':h2db-repository').projectDir = file('invoicer-adapter/repository/h2db-repository')
+project(':springboot-application').projectDir = file('invoicer-infrastructure/application/springboot-application')
+
