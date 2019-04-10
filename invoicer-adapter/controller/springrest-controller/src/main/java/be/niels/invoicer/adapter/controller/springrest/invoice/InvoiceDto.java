@@ -1,4 +1,4 @@
-package be.niels.invoicer.adapter.controller.springrest;
+package be.niels.invoicer.adapter.controller.springrest.invoice;
 
 public class InvoiceDto {
 

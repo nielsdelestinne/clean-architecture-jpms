@@ -1,4 +1,4 @@
-package be.niels.invoicer.adapter.controller.springrest;
+package be.niels.invoicer.adapter.controller.springrest.invoice;
 
 import be.niels.invoicer.usecase.invoice.CreateInvoice;
 import org.springframework.web.bind.annotation.PostMapping;

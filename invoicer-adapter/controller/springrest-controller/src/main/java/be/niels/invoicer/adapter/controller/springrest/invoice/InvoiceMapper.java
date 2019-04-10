@@ -1,11 +1,11 @@
-package be.niels.invoicer.adapter.controller.springrest;
+package be.niels.invoicer.adapter.controller.springrest.invoice;
 
 import be.niels.invoicer.domain.invoice.Invoice;
 
 import java.math.BigDecimal;
 import java.util.Currency;
 
-import static be.niels.invoicer.adapter.controller.springrest.InvoiceDto.invoiceDto;
+import static be.niels.invoicer.adapter.controller.springrest.invoice.InvoiceDto.invoiceDto;
 
 public class InvoiceMapper {
 
