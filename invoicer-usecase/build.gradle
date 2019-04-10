@@ -1,3 +1,9 @@
 apply plugin: 'java-library'
 
 ext.moduleName = 'niels.invoicer.usecase'
+
+dependencies {
+    implementation(
+            project(':invoicer-domain'),
+    )
+}
