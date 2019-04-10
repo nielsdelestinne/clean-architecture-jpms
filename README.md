@@ -5,6 +5,20 @@
     - https://github.com/carlphilipp/clean-architecture-example
 - https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
 
+## Todo's
+### Short term
+- Repository (Spring Data: JPA & H2) & Running Spring Boot application --> Fully working POC.
+
+### Long term
+- Multiple technology stacks (besides Spring). Maybe just a 'manual' one?
+- Configuring a full-blown test setup
+- Dockerize
+
+### Future
+- Write Invoicer stories and implement them
+- Front end
+- ...
+
 ## To study
 - Gradle: `compile` is deprecated in favor of `api` and `implementation` for adding dependencies to a project/module.
     - **Read**: https://blog.gradle.org/incremental-compiler-avoidance
