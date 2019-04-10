@@ -10,3 +10,11 @@
     - **Read**: https://blog.gradle.org/incremental-compiler-avoidance
     - Paragraph Java Libraries in particular.
 - Gradle: Building a  Java 11 (12) multi-module project with JPMS.
+
+## Pitfalls
+- Forgetting to require the modules of external dependencies....
+    - E.g. I added the spring-boot-starter-web dependency through Gradle in the adapter > controller module. 
+    However, I wasn't able to use (e.g.) the `@RestController` dependency. After checking the dependency tree 
+    using task `dependencies` (`gradlew :springrest-controller:dependencies`) I could validate that the all the 
+    dependencies were correctly downloaded. **However**, I completely forgot to require the specific Spring 
+    module to my `module-info.java` specification (`require spring.web;`).
